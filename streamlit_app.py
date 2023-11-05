@@ -5,8 +5,8 @@ from langchain.vectorstores import Pinecone
 import pinecone
 
 
-st.set_page_config(page_title="Tax Pro 2022", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Chat with the Tax Pro 2022, powered by GPT3.5")
+st.set_page_config(page_title="TaxPro 2022", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.title("Chat with the TaxPro 2022 ")
 
 # Sidebar for entering OpenAI key
 with st.sidebar:
